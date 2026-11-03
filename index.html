@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlogSpace | All Blogs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/">BlogSpace</a>
+    <nav><a href="/">Home</a><a href="/auth.html">Login / Register</a></nav>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <p class="eyebrow">MODULE 03 · DATABASE INTEGRATION</p>
+      <h1>Ideas worth sharing.</h1>
+      <p>Read stories from our community and share your own thoughts.</p>
+      <a class="button" href="/auth.html">Sign in to write a blog</a>
+    </section>
+    <section class="section-heading"><div><h2>Latest blog posts</h2><p>Posts are retrieved from the MongoDB database.</p></div></section>
+    <p id="status" class="status">Loading blog posts...</p>
+    <section id="blogList" class="blog-grid"></section>
+  </main>
+  <footer>BlogSpace · Database Integration Project</footer>
+  <script src="app.js"></script>
+</body>
+</html>
